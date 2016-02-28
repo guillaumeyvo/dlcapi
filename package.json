@@ -26,5 +26,8 @@
     "type": "",
     "url": ""
   },
+    "engines": {
+    "node": "4.1.1"
+  },
   "description": "dlcapi"
 }
