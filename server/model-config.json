@@ -34,11 +34,17 @@
   },
   "utilisateur": {
     "dataSource": "postgre",
-    "public": true
+    "public": true,
+    "options": {
+      "emailVerificationRequired": true
+    }
   },
   "distributeur": {
     "dataSource": "postgre",
-    "public": true
+    "public": true,
+    "options": {
+      "emailVerificationRequired": true
+    }
   },
   "Addresse": {
     "dataSource": "postgre",
@@ -55,5 +61,8 @@
   "Produit": {
     "dataSource": "postgre",
     "public": true
+  },
+  "Email": {
+    "dataSource": "EmailDs"
   }
 }
